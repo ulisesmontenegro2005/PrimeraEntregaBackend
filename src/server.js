@@ -27,5 +27,3 @@ app.listen(PORT, () => {
     console.log(`Escuchando en ${PORT}`);
 })
 
-exports.admin = admin;
-
