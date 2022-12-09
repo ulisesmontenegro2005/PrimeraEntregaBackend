@@ -1,0 +1,10 @@
+{
+   "version": 1,
+   "name": "primer-entrega",
+   "builds": [
+      { "src": "src/server.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/ }
+   ]
+}
